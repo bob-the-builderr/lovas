@@ -1,0 +1,14 @@
+{
+  "name": "lovas",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm --prefix my-app start",
+    "app": "npm --prefix my-app start",
+    "android": "npm --prefix my-app run android",
+    "ios": "npm --prefix my-app run ios",
+    "web": "npm --prefix my-app run web",
+    "typecheck": "npm --prefix my-app run typecheck",
+    "lint": "npm --prefix my-app run lint"
+  },
+  "private": true
+}
